@@ -4,11 +4,12 @@ import base64
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+from PIL import Image
 
 st.title('Статистика игроков NFL')
 
-# image = Image.open('NFL_logo.png')
-# st.image(image, width=50)
+image = Image.open('NFL_logo.png')
+st.image(image, width=50)
 
 st.markdown("""
 Простой и понятный анализ статистики игроков NFL (с акцентом на скорость)!
